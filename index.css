@@ -1,0 +1,120 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'
+);
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em 1.25em;
+    align-self: center;
+}
+
+main {
+    padding: 0 0.5em;
+    text-align: center;
+}
+
+.header-icon{
+    display: inline-block;
+    line-height: 0.5;
+    cursor: pointer;
+}
+
+.header-icon img {
+    height: 2em;
+}
+
+.header-logo {
+    display: inline-block;
+    line-height: 0.5;
+}
+
+.header-logo img {
+    height: 2em;
+}
+
+.hero-dog {
+    display: inline-block;
+}
+
+.hero-dog img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding-top: 0;
+    margin: 0;
+}
+
+.swipe {
+    display: flex;
+    justify-content: center;
+    margin: -3em auto;
+    padding-bottom: 1em;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 50%;
+    line-height: 0;
+    box-shadow: 0 0 0.31em grey;
+    margin: 0.62em 1.56em;
+}
+
+.cross-btn:hover {
+    background-color: #FFE7EF;
+}
+
+.heart-btn:hover {
+    background-color: #DBFFF4;
+}
+
+.dog-info {
+    position: relative;
+    bottom: 4.37em;
+    text-align: left;
+    padding: 0 0.62em;
+}
+
+.dog-info h1 {
+    color: white;
+    margin: 0;
+}
+
+.dog-info h3 {
+    color: #B7B7B7;
+    margin: 0;
+}
+
+.badge {
+    position: absolute;
+    top: 10em;
+    left: 1.7em;
+    /* display: none; */
+}
+
+.badge span {
+    display: inline-block;
+    width: 21em;
+    height: 10em;
+    transform: rotate(-30deg);
+}
+
+.badge span img {
+    width: 100%;
+}
+
+.introduction {
+    font-weight: 600;
+}
+
+.description {
+    font-weight: 400;
+}
